@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - VesperHold</title>
+    <style>
+        :root {
+            --brand: #4A90D9;
+            --bg: #f9fafb;
+            --card: #ffffff;
+            --text: #1f2937;
+            --text-muted: #6b7280;
+            --border: #e5e7eb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background-color: var(--brand);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text);
+            margin: 0;
+        }
+
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background-color: white;
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        .policy-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        h1 { font-size: 2rem; margin-top: 0; color: var(--text); }
+        h2 { font-size: 1.25rem; margin-top: 2rem; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+        p { margin-bottom: 1rem; }
+
+        .last-updated {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-box {
+            background-color: #f3f4f6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .policy-card { padding: 20px; }
+            header { flex-direction: column; gap: 20px; align-items: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="logo-area">
+            <div class="logo-icon">V</div>
+            <h1 class="app-name">VesperHold</h1>
+        </div>
+        <div class="lang-switcher">
+            <select id="langSelect" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="pt">Português</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="policy-card">
+
+        <!-- ENGLISH -->
+        <div id="en" class="lang-content active">
+            <h1>Terms &amp; Conditions</h1>
+            <p class="last-updated">Last updated: June 13, 2026</p>
+
+            <p>Please read these Terms &amp; Conditions carefully before using VesperHold. By downloading or using the app, you agree to be bound by these terms.</p>
+
+            <h2>1. Acceptance of Terms</h2>
+            <p>By accessing or using VesperHold, you confirm that you are at least 13 years old and agree to these Terms &amp; Conditions. If you do not agree, please do not use the app.</p>
+
+            <h2>2. What VesperHold Does</h2>
+            <p>VesperHold is a sleep environment monitoring application. It uses your device's microphone to measure ambient noise levels while you sleep and provides a Quiet Score and noise disturbance summary. All data is processed and stored locally on your device.</p>
+
+            <h2>3. Not Medical Advice</h2>
+            <p>VesperHold is not a medical device and does not provide medical advice, diagnosis, or treatment. The information provided by the app — including Quiet Scores and noise disturbance percentages — is for informational and personal insight purposes only.</p>
+            <p>If you have concerns about your health or sleep quality, please consult a qualified healthcare professional. Do not use VesperHold as a substitute for professional medical advice.</p>
+
+            <h2>4. In-App Purchases</h2>
+            <p>VesperHold offers a one-time in-app purchase to unlock unlimited recordings. All purchases are processed by Apple (App Store) or Google (Google Play) and are subject to their respective Terms of Service.</p>
+            <p>All sales are final. Refunds are handled in accordance with Apple's or Google's refund policies. We do not process refunds directly.</p>
+
+            <h2>5. Microphone Permission</h2>
+            <p>VesperHold requires microphone access to function. By granting this permission, you consent to audio being recorded and processed locally on your device during active monitoring sessions. No audio is transmitted off your device.</p>
+
+            <h2>6. Intellectual Property</h2>
+            <p>All content, design, and code within VesperHold is the property of Arkvelis Group and is protected by applicable intellectual property laws. You may not copy, modify, distribute, or reverse engineer any part of the app.</p>
+
+            <h2>7. Limitation of Liability</h2>
+            <p>VesperHold is provided "as is" without warranties of any kind, express or implied. Arkvelis Group shall not be liable for any indirect, incidental, or consequential damages arising from your use of the app, including but not limited to data loss or device issues.</p>
+            <p>Our total liability to you for any claim arising from use of VesperHold shall not exceed the amount you paid for the app.</p>
+
+            <h2>8. Changes to These Terms</h2>
+            <p>We may update these Terms &amp; Conditions from time to time. Continued use of VesperHold after any changes constitutes acceptance of the updated terms. The "Last updated" date at the top of this page will reflect the most recent revision.</p>
+
+            <h2>9. Governing Law</h2>
+            <p>These terms are governed by and construed in accordance with the laws of the jurisdiction in which Arkvelis Group operates, without regard to conflict of law principles.</p>
+
+            <div class="contact-box">
+                <h2>Contact Us</h2>
+                <p>If you have questions about these Terms &amp; Conditions, please contact us at:</p>
+                <p><strong>vesperhold@arkvelis.com</strong></p>
+            </div>
+        </div>
+
+        <!-- ESPAÑOL -->
+        <div id="es" class="lang-content">
+            <h1>Términos y Condiciones</h1>
+            <p class="last-updated">Última actualización: 13 de junio de 2026</p>
+
+            <p>Por favor, lee estos Términos y Condiciones cuidadosamente antes de usar VesperHold. Al descargar o usar la app, aceptas estar sujeto a estos términos.</p>
+
+            <h2>1. Aceptación de los Términos</h2>
+            <p>Al acceder o usar VesperHold, confirmas que tienes al menos 13 años y que aceptas estos Términos y Condiciones. Si no estás de acuerdo, por favor no uses la app.</p>
+
+            <h2>2. Qué Hace VesperHold</h2>
+            <p>VesperHold es una aplicación de monitoreo del entorno de sueño. Utiliza el micrófono de tu dispositivo para medir los niveles de ruido ambiental mientras duermes y proporciona una Puntuación de Silencio y un resumen del nivel de perturbación. Todos los datos se procesan y almacenan localmente en tu dispositivo.</p>
+
+            <h2>3. No es Asesoramiento Médico</h2>
+            <p>VesperHold no es un dispositivo médico y no proporciona asesoramiento, diagnóstico ni tratamiento médico. La información proporcionada por la app — incluidas las Puntuaciones de Silencio y los porcentajes de perturbación — es solo para fines informativos y de conocimiento personal.</p>
+            <p>Si tienes preocupaciones sobre tu salud o calidad de sueño, consulta a un profesional de la salud calificado. No uses VesperHold como sustituto del consejo médico profesional.</p>
+
+            <h2>4. Compras dentro de la App</h2>
+            <p>VesperHold ofrece una compra única dentro de la app para desbloquear grabaciones ilimitadas. Todas las compras son procesadas por Apple (App Store) o Google (Google Play) y están sujetas a sus respectivos Términos de Servicio.</p>
+            <p>Todas las ventas son definitivas. Los reembolsos se gestionan de acuerdo con las políticas de reembolso de Apple o Google. No procesamos reembolsos directamente.</p>
+
+            <h2>5. Permiso del Micrófono</h2>
+            <p>VesperHold requiere acceso al micrófono para funcionar. Al conceder este permiso, consientes que el audio sea grabado y procesado localmente en tu dispositivo durante las sesiones de monitoreo activas. Ningún audio se transmite fuera de tu dispositivo.</p>
+
+            <h2>6. Propiedad Intelectual</h2>
+            <p>Todo el contenido, diseño y código dentro de VesperHold es propiedad de Arkvelis Group y está protegido por las leyes de propiedad intelectual aplicables. No puedes copiar, modificar, distribuir ni realizar ingeniería inversa de ninguna parte de la app.</p>
+
+            <h2>7. Limitación de Responsabilidad</h2>
+            <p>VesperHold se proporciona "tal cual" sin garantías de ningún tipo, expresas o implícitas. Arkvelis Group no será responsable de ningún daño indirecto, incidental o consecuente que surja del uso de la app, incluidos, entre otros, la pérdida de datos o problemas con el dispositivo.</p>
+            <p>Nuestra responsabilidad total ante ti por cualquier reclamación derivada del uso de VesperHold no superará el importe que pagaste por la app.</p>
+
+            <h2>8. Cambios en Estos Términos</h2>
+            <p>Podemos actualizar estos Términos y Condiciones de vez en cuando. El uso continuado de VesperHold después de cualquier cambio constituye la aceptación de los términos actualizados. La fecha de "Última actualización" en la parte superior de esta página reflejará la revisión más reciente.</p>
+
+            <h2>9. Ley Aplicable</h2>
+            <p>Estos términos se rigen e interpretan de acuerdo con las leyes de la jurisdicción en la que opera Arkvelis Group, sin tener en cuenta los principios de conflicto de leyes.</p>
+
+            <div class="contact-box">
+                <h2>Contáctenos</h2>
+                <p>Si tienes preguntas sobre estos Términos y Condiciones, contáctanos en:</p>
+                <p><strong>vesperhold@arkvelis.com</strong></p>
+            </div>
+        </div>
+
+        <!-- PORTUGUÊS -->
+        <div id="pt" class="lang-content">
+            <h1>Termos e Condições</h1>
+            <p class="last-updated">Última atualização: 13 de junho de 2026</p>
+
+            <p>Por favor, leia estes Termos e Condições cuidadosamente antes de usar o VesperHold. Ao baixar ou usar o app, você concorda em ficar vinculado a estes termos.</p>
+
+            <h2>1. Aceitação dos Termos</h2>
+            <p>Ao acessar ou usar o VesperHold, você confirma que tem pelo menos 13 anos e que concorda com estes Termos e Condições. Se não concordar, por favor não use o app.</p>
+
+            <h2>2. O Que o VesperHold Faz</h2>
+            <p>O VesperHold é um aplicativo de monitoramento do ambiente de sono. Ele usa o microfone do seu dispositivo para medir os níveis de ruído ambiental enquanto você dorme e fornece uma Pontuação de Silêncio e um resumo do nível de perturbação. Todos os dados são processados e armazenados localmente no seu dispositivo.</p>
+
+            <h2>3. Não é Aconselhamento Médico</h2>
+            <p>O VesperHold não é um dispositivo médico e não fornece aconselhamento, diagnóstico ou tratamento médico. As informações fornecidas pelo app — incluindo Pontuações de Silêncio e percentuais de perturbação — são apenas para fins informativos e de conhecimento pessoal.</p>
+            <p>Se você tiver preocupações com sua saúde ou qualidade de sono, consulte um profissional de saúde qualificado. Não use o VesperHold como substituto para aconselhamento médico profissional.</p>
+
+            <h2>4. Compras no Aplicativo</h2>
+            <p>O VesperHold oferece uma compra única no aplicativo para desbloquear gravações ilimitadas. Todas as compras são processadas pela Apple (App Store) ou Google (Google Play) e estão sujeitas aos seus respectivos Termos de Serviço.</p>
+            <p>Todas as vendas são definitivas. Os reembolsos são tratados de acordo com as políticas de reembolso da Apple ou do Google. Não processamos reembolsos diretamente.</p>
+
+            <h2>5. Permissão do Microfone</h2>
+            <p>O VesperHold requer acesso ao microfone para funcionar. Ao conceder esta permissão, você consente que o áudio seja gravado e processado localmente no seu dispositivo durante as sessões de monitoramento ativas. Nenhum áudio é transmitido fora do seu dispositivo.</p>
+
+            <h2>6. Propriedade Intelectual</h2>
+            <p>Todo o conteúdo, design e código dentro do VesperHold são propriedade da Arkvelis Group e estão protegidos pelas leis de propriedade intelectual aplicáveis. Você não pode copiar, modificar, distribuir ou fazer engenharia reversa de nenhuma parte do app.</p>
+
+            <h2>7. Limitação de Responsabilidade</h2>
+            <p>O VesperHold é fornecido "como está" sem garantias de qualquer tipo, expressas ou implícitas. A Arkvelis Group não será responsável por quaisquer danos indiretos, incidentais ou consequenciais decorrentes do uso do app, incluindo, entre outros, perda de dados ou problemas com o dispositivo.</p>
+            <p>Nossa responsabilidade total perante você por qualquer reclamação decorrente do uso do VesperHold não excederá o valor que você pagou pelo app.</p>
+
+            <h2>8. Alterações nestes Termos</h2>
+            <p>Podemos atualizar estes Termos e Condições de tempos em tempos. O uso continuado do VesperHold após qualquer alteração constitui a aceitação dos termos atualizados. A data de "Última atualização" no topo desta página refletirá a revisão mais recente.</p>
+
+            <h2>9. Lei Aplicável</h2>
+            <p>Estes termos são regidos e interpretados de acordo com as leis da jurisdição em que a Arkvelis Group opera, sem considerar os princípios de conflito de leis.</p>
+
+            <div class="contact-box">
+                <h2>Contato</h2>
+                <p>Se você tiver dúvidas sobre estes Termos e Condições, entre em contato conosco em:</p>
+                <p><strong>vesperhold@arkvelis.com</strong></p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 VesperHold. All rights reserved.</p>
+    </footer>
+</div>
+
+<script>
+    function changeLanguage() {
+        const select = document.getElementById('langSelect');
+        const lang = select.value;
+
+        document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+        document.getElementById(lang).classList.add('active');
+
+        const titles = {
+            'en': 'Terms & Conditions - VesperHold',
+            'es': 'Términos y Condiciones - VesperHold',
+            'pt': 'Termos e Condições - VesperHold'
+        };
+        document.title = titles[lang];
+    }
+</script>
+
+</body>
+</html>
